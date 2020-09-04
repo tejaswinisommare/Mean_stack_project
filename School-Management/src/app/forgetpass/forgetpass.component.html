@@ -1,0 +1,50 @@
+<div class="container-fluid">
+    <div class="row" style="height: 100vh">
+        <!-- Left Block -->
+        <div class="col d-flex flex-column justify-content-center align-items-center" id="col">
+
+            <div>
+                <fa-icon [icon]="faSchool" style="font-size: 54px"></fa-icon>
+            </div>
+            <div class="h3">Welcome To International School</div>
+
+            <div>
+                <img src="assets/log.svg" alt="" height="400px" width="500px" />
+
+            </div>
+        </div>
+
+        <!-- Right Block-->
+        <div class="col bg-light d-flex flex-column justify-content-center align-items-center">
+
+
+            <div class="h2"><b>Forget From</b></div>
+
+            <div class="input-field">
+                <fa-icon [icon]="faAddressCard"></fa-icon>
+                <input type="text" style="border-radius: 20px;" placeholder="Enter Username" class="form-control"
+                    formControlName="username" required title="Please match Username" />
+            </div>
+
+            <div class="mt-2" class="input-field">
+                <fa-icon [icon]="faLock"></fa-icon>
+
+                <input type="password" style="border-radius: 20px;" placeholder="Enter New Password"
+                    class="form-control" formControlName="password" required />
+            </div>
+            <div class="mt-2" class="input-field">
+                <fa-icon [icon]="faLock"></fa-icon>
+
+                <input type="password" style="border-radius: 20px;" placeholder="Confrom Password" class="form-control"
+                    formControlName="password" required />
+            </div>
+
+
+            <button class="btn btn-sm btn-info mt-2 mb-2" style="border-radius: 20px; width: 100px; height: 40px;">
+                submit
+            </button>
+            <a routerLink="/login"> go to login</a>
+
+        </div>
+    </div>
+</div>

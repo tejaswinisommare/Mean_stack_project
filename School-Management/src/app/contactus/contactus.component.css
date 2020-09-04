@@ -1,0 +1,88 @@
+
+#col1{
+    background-image: linear-gradient( #a5a6a8 , #7da4b1 );
+    
+  }
+  b{
+      font-size: 50px;
+  }
+  
+  
+  .item{
+    margin-bottom: 24px;
+    font-size: 16px;
+    color: rgb(20, 16, 16);
+  }
+  fa-icon{
+    width: 150px;
+    height: 150px;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 16px;
+  }
+  
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .textb{
+    width: calc(50% - 10px);
+    height: 50px;
+    padding: 12px;
+    background-color: #222;
+    border: none;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  textarea{
+    width: 100%;
+    min-height: 200px;
+    max-height: 400px;
+    resize: vertical;
+    padding: 12px;
+    background-color: #222;
+    border: none;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .btn{
+    width: 120px;
+    height: 40px;
+    margin-left: auto;
+    background-color: #3494db;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 2px solid #3494db;
+    transition: .3s linear;
+  }
+  
+  .btn:hover{
+    background-color: transparent;
+    color: #3494db;
+  }
+  
+  @media screen and (max-width: 980px){
+    .contact-page{
+      max-width: 800px;
+    }
+    h2{
+      font-size: 40px;
+      margin-bottom: 40px;
+    }
+  
+    .contact-info, .contact-form{
+      flex: 100%;
+      margin-bottom: 30px;
+    }
+    .textb{
+      width: 100%;
+    }
+  }
